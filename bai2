@@ -1,0 +1,12 @@
+//Viết chương trình nhập vào 2 số thực. Kiểm tra xem chúng có cùng dấu hay không.
+#include<stdio.h>
+
+int main() {
+    float so1, so2;//khai báo biến
+    printf ("\nNhap hai so: ");// hiển thị lên màn hình
+    scanf ("%f%f", &so1, &so2);
+    if (so1 > 0 && so2 > 0) // nếu hai số lớn 0 
+        printf ("\nHai so cung dau");
+    else // ngược lại
+        printf ("\nHai so khac dau");
+}
